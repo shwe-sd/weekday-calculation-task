@@ -27,16 +27,6 @@ Expected output:
    Weekday: Thursday
 
 ------------------------------------------------------------------------
-USING AS A MODULE:
-
-In another JS/TS file, you can use it like this:
-
-const { calculateWeekday, isLeapYear, getDaysInMonth } = require('./src/DateCalculator');
-
-const weekday = calculateWeekday(2, 10, 2025);
-console.log('Weekday:', weekday); // Output: Thursday
-
-------------------------------------------------------------------------
 TESTING:
 
 Tests are written using Jest.
